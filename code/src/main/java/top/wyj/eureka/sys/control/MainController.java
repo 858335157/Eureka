@@ -2,6 +2,7 @@ package top.wyj.eureka.sys.control;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
 
 /**
  * @auther 王宇杰
@@ -11,8 +12,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class MainController {
 
     @RequestMapping("")
-    public String index() {
-        return "main";
+    public String main() {
+        return "sys/main";
     }
+
 
 }

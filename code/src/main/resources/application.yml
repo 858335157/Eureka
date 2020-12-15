@@ -1,6 +1,4 @@
 server:
-  servlet:
-    context-path: /Eureka
   tomcat:
     uri-encoding: UTF-8
     max-http-form-post-size: 2097152
@@ -11,13 +9,6 @@ spring:
     username: wyj
     password: 051564200515Wyj
     driverClassName: com.mysql.cj.jdbc.Driver
-  thymeleaf:
-    cache: false
-  devtools:
-    restart:
-      enabled: true
-      additional-paths: src/main
-      exclude: static/jar/**
   redis:
     host: 175.24.22.161
     port: 6379

@@ -1,0 +1,32 @@
+
+body{
+    background-color: #ECF0F1;
+}
+#u0_div {
+    border-width:0px;
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:676px;
+    height:170px;
+    background:inherit;
+    background-color:rgba(46, 204, 113, 1);
+    border:none;
+    border-radius:0px;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+}
+#u0 {
+    border-width:0px;
+    position:absolute;
+    left:224px;
+    top:214px;
+    width:676px;
+    height:170px;
+    display:flex;
+    -webkit-transform:rotate(315deg);
+    -moz-transform:rotate(315deg);
+    -ms-transform:rotate(315deg);
+    transform:rotate(315deg);
+}
